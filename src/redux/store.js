@@ -12,3 +12,4 @@ const store = createStore(
 export default store;
 
 
+store.subscribe(() => console.info(store.getState()))
